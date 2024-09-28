@@ -8,4 +8,5 @@ import ays.dio.domain.model.Usuario;
 @Repository
 public interface UsuarioRepositorio extends JpaRepository<Usuario, Long> {
 
+    //boolean existePorContaNumero(String numero);
 }
